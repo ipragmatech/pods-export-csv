@@ -52,7 +52,7 @@ if (!class_exists('Pods_Export_Csv')) {
 		public function pods_ui_add_bulk_actions( $args ) {
 			//error_log(print_r($args, true));
 			$args['actions_bulk']['export_pods_as_csv'] =  array (
-					'label' => 'Export  AS Csv',
+					'label' => 'Export Csv',
 					'callback' => array (
 								&$this,
 								'export_pods_as_csv' 
