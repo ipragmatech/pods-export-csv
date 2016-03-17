@@ -13,6 +13,7 @@ After activation the plugin an option is added to bulk actions "Export Csv". So 
 ## Advanced Usage
 The plugin adds new custom bulk action with an option of selecting the fileds to be exported . No code changes are needed.
 
-# = 1.0 =
+## Changelog
+### 1.0
 * Adds option in bulk actions dropdown.
 * Pods Export Csv gives the users the option for selecting the pods fields before exporting.
