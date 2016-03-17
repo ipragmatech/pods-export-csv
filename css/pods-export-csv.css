@@ -1,16 +1,65 @@
+.av_one_fourth {
+	width: 25%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.ac-custom label {
+	display: inline-block;
+	position: relative;
+	font-size: 16px;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	color: rgba(0, 0, 0, 0.5);
+	transition: color 0.3s;
+}
+
+.ac-custom input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #2380b9;
+	transition: opacity 0.3s;
+}
+
+.ac-custom input[type="checkbox"]:checked+label {
+	color: orange;
+}
+
+.ac-custom input[type=checkbox]:checked:before {
+	color: orange;
+	font-size: 30px;
+	position: relative;
+	left: -4px;
+	top: -2px;
+	opacity: 0.8;
+}
+
 .export_company_button {
-    position: relative;
-    padding: 10px 40px;
-    margin: 0px 10px 10px 0px;
-    float: left;
-    border-radius: 10px;
-    font-family: 'Helvetica', cursive;
-    font-size: 25px;
-    color: #FFF;
-    text-decoration: none;
-    background-color: #3498DB;
-    border-bottom: 5px solid #2980B9;
-    text-shadow: 0px -2px #2980B9;
-    transition: all 0.1s;
-    -webkit-transition: all 0.1s;
+	position: relative;
+	padding: 10px 40px;
+	margin: 0px 10px 10px 0px;
+	float: left;
+	border-radius: 10px;
+	font-family: 'Helvetica', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+	/* Animation */
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.export_company_button:hover, .export_company_button:focus {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.export_company_button:active {
+	transform: translate(0px, 5px);
+	-webkit-transform: translate(0px, 5px);
 }
