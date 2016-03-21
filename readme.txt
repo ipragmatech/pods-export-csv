@@ -12,6 +12,14 @@ Advance Pods Export CSV allows to export pods data, with option for chosing fiel
 
 == Description ==
 
+= Motivation for this plugin =
+
+Pods is a powerful framework that transforms WordPress to a full blown CMS. 
+
+Pods also provides an administration UI that allows you to manage these objects or "pods". However there is no feature for exporting the pods data through bulk actions and select the fields before generating the csv.
+
+= Usage =
+
 With this plugin you can export pods data as csv.
 
 After activation the plugin an option is added to bulk actions "Export Csv". 
@@ -19,6 +27,10 @@ After activation the plugin an option is added to bulk actions "Export Csv".
 So you can select the fields to be exported as csv and then select the option from the bulk action and click "Apply". 
 
 The action will happen on all selected items. It will be redirected to another screen for selecting the fields to be exported. After selecting the fields click "Export" to export as csv.
+
+= Advanced Usage =
+
+The plugin adds new custom bulk action with an option of selecting the fileds to be exported . No code changes are needed.
 
 == Installation ==
 
