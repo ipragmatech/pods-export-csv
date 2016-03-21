@@ -1,4 +1,4 @@
-# pods-export-csv
+# Advance Pods Export CSV
 WordPress plugin to export pods data, with option for chosing fields to be exported.
 
 ## Motivation for this plugin

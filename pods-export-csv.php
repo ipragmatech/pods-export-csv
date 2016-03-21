@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Pods Export CSV
+ * Plugin Name: Advance Pods Export CSV
  * Plugin URI: 
  * Description: Export 
  * Author: iPragmatech Solutions
