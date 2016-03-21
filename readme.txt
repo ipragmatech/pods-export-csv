@@ -30,7 +30,7 @@ The action will happen on all selected items. It will be redirected to another s
 
 = Advanced Usage =
 
-The plugin adds new custom bulk action with an option of selecting the fileds to be exported . No code changes are needed.
+The plugin adds new custom bulk action with an option of selecting the fields to be exported . No code changes are needed.
 
 == Installation ==
 
